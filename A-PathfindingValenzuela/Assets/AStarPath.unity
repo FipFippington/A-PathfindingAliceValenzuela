@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -425,7 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1005088011}
   - component: {fileID: 1005088014}
-  - component: {fileID: 1005088015}
+  - component: {fileID: 1005088016}
   m_Layer: 0
   m_Name: Maze
   m_TagString: Untagged
@@ -463,7 +463,7 @@ MonoBehaviour:
   width: 10
   depth: 10
   scale: 6
---- !u!114 &1005088015
+--- !u!114 &1005088016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1005088009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 761d4be1e2bf41c4ea617d5a159679b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 60eff4b64db2f264f9c91b7dfdf8160d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maze: {fileID: 1005088014}
